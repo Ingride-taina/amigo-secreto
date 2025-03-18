@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-primary: #dfe0e263;
+    --color-secondary: #887c61;
+    --color-tertiary: #927d7d;
+    --color-button: #60413a;
+    --color-button-hover: #794530;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #1c1818;
 }
 
 /* Estilos gerais */
@@ -96,6 +96,7 @@ body {
     width: px;
     justify-content: center;
     padding: 10px;
+    
 }
 
 
@@ -143,7 +144,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #caa775;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -166,4 +167,11 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.ursos{
+    right: 50px;
+    width: 300px;
+    margin-left: 50px;
+
 }
